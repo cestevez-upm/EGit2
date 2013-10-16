@@ -47,4 +47,8 @@ public class PersonaTest {
         assertEquals("Ana Vega", this.persona.nombreCompleto());
     }
 
+    @Test
+    public void testNombreCompletoInverso() {
+    	assertEquals("Vega, Ana", this.persona.nombreCompletoInverso());
+    }
 }

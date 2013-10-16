@@ -39,4 +39,8 @@ public class Persona {
         return this.nombre.substring(0, 1) + ".";
     }
 
+	public String nombreCompletoInverso() {
+		return null;
+	}
+
 }
