@@ -45,4 +45,29 @@ public class FraccionTest {
         assertEquals(2.0/3.0, fraccion.decimal(), 1e-10);
     }
 
+    @Test
+    public void testInversa() {
+    	this.fraccion.inversa();
+    	
+    	assertEquals(3, this.fraccion.getNumerador());
+    	assertEquals(2, this.fraccion.getDenominador());
+    }
+    
+    @Test 
+    public void testIsEquivalente() {
+    	Fraccion f1 = new Fraccion(4,6);
+    	
+    	assertTrue(this.fraccion.isEquivalente(f1));
+    }
+    
+    @Test
+    public void testMultiplicar() {
+    	Fraccion f1 = new Fraccion(6,2);
+    	this.fraccion.multiplicar(f1);
+    	
+    	assertEquals(12, this.fraccion.getNumerador());
+    	assertEquals(6, this.fraccion.getDenominador());
+    }
+    
+    
 }

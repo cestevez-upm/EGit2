@@ -67,4 +67,16 @@ public class Fraccion {
         return (double) numerador / denominador;
     }
 
+	public void inversa() {
+		
+	}
+
+	public boolean isEquivalente(Fraccion fraccion) {
+		return false;
+	}
+
+	public void multiplicar(Fraccion fraccion) {
+		
+	}
+
 }
