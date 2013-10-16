@@ -1,3 +1,4 @@
+
 package spai.egit2;
 
 import java.util.ArrayList;
@@ -33,5 +34,10 @@ public class ColeccionDecimales {
         }
         return mayor;
     }
+    
+    public double media(){
+		return -1;
+    }
 
 }
+
