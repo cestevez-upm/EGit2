@@ -33,5 +33,9 @@ public class ColeccionDecimales {
         }
         return mayor;
     }
+    
+    public double media(){
+		return -1;
+    }
 
 }

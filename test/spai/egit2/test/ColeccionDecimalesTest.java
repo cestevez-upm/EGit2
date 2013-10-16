@@ -25,5 +25,10 @@ public class ColeccionDecimalesTest {
     public void testMayor() {
         assertEquals(3.4, this.numeros.mayor(), 1e-10);
     }
+    
+    @Test
+    public void testMedia(){
+    	assertEquals(1.9333333333, this.numeros.media(), 1e-10);
+    }
 
 }
