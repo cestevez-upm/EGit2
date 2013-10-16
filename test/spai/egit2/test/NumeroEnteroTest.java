@@ -1,6 +1,7 @@
 package spai.egit2.test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -46,6 +47,11 @@ public class NumeroEnteroTest {
         numero = new NumeroEntero();
         this.numero.decrementar();
         assertEquals(-1, numero.getValor());
+    }
+    
+    @Test
+    public void testIsImpar(){
+    	assertTrue(this.numero.isImpar());
     }
 
 }
