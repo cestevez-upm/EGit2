@@ -32,7 +32,11 @@ public class NumeroEntero {
     }
     
     public boolean isImpar(){
-    	return true;
+    	boolean impar = false;
+    	if(this.valor%2==1){
+    		impar=true;
+    	}
+    	return impar;
     }
 
 }

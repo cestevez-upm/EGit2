@@ -80,7 +80,8 @@ public class Fraccion {
 	}
 
 	public void multiplicar(Fraccion fraccion) {
-		
+		this.numerador=this.numerador * fraccion.numerador;
+		this.denominador=this.denominador * fraccion.denominador;
 	}
 
 }
