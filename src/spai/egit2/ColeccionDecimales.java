@@ -36,7 +36,8 @@ public class ColeccionDecimales {
     }
     
     public double media(){
-		return -1;
+		int tamayo = this.coleccion.size();
+    	return this.suma()/tamayo;
     }
 
 }
