@@ -40,7 +40,7 @@ public class Persona {
     }
 
 	public String nombreCompletoInverso() {
-		return null;
+		return this.apellido + ", " + this.nombre;
 	}
 
 }
