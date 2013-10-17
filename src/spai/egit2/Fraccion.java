@@ -68,7 +68,11 @@ public class Fraccion {
     }
 
 	public void inversa() {
+		int numerador = this.getDenominador();
+		int denominador = this.getNumerador();
 		
+		this.setNumerador(numerador);
+		this.setDenominador(denominador);
 	}
 
 	public boolean isEquivalente(Fraccion fraccion) {
