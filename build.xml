@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project name="EGit2_cestevez-upm" default="test" basedir=".">
 
 	<!-- Variables globales -->
@@ -26,9 +26,9 @@
 	<!-- compilar... -->
 	<target name="compila" description="Compila">
 		<javac includeantruntime="false" srcdir="${src}" destdir="${build}/main"
-			classpathref="classpath.test" />
+			classpathref="classpath.test" encoding="ISO-8859-1"/>
 		<javac includeantruntime="false" srcdir="${test}" destdir="${build}/test"
-			classpathref="classpath.test" />
+			classpathref="classpath.test" encoding="ISO-8859-1"/>
 	</target>
 
 	<!-- Principal... -->
